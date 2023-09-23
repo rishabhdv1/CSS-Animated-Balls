@@ -1,0 +1,96 @@
+.box1{
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 200px auto; /* T/B L/R*/
+    /* animation-name: Rishabh;
+    animation-duration: initial/inherit/time;
+    animation-timing-function: linear/ease/ease-in/ease-out;
+    animation-delay: ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fillmode: ;
+    animation-play-state:;
+     */
+    animation: Rishabh1 1s linear infinite ;
+    
+}
+@keyframes Rishabh1{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(90deg);
+    }
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background: violet;
+
+    /* animation-name: Rishabh;
+    animation-duration: initial/inherit/time;
+    animation-timing-function: linear/ease/ease-in/ease-out;
+    animation-delay: ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fillmode: ;
+    animation-play-state:;
+     */
+    animation: Rishabh2 2s linear infinite alternate;
+    
+}
+@keyframes Rishabh2{
+    0%{
+        transform: translateX(0px);
+    }
+    14%{
+        background-color: indigo;
+    }
+    28%{
+        background-color: blue;
+    }
+    42%{
+        background-color: green;
+    }
+    56%{
+        background: yellow;
+    }
+    70%{
+        background: orange;
+    }
+    84%{
+        background: red;
+    }
+    98%{
+        background: red;
+    }
+    100%{
+        transform: translateX(1300px);
+    }
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    background: blue;
+
+    /* animation-name: Rishabh;
+    animation-duration: initial/inherit/time;
+    animation-timing-function: linear/ease/ease-in/ease-out;
+    animation-delay: ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fillmode: ;
+    animation-play-state:;
+     */
+    animation: Rishabh3 10s linear infinite ;
+    
+}
+@keyframes Rishabh3{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(800px);
+    }
+}
